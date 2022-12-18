@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;  
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 0 10px;
+    justify-content: center;
+    border: 1px solid grey;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+
+h1:hover:after{
+    content: '. Donate Now!' 
+}
+
+progress {
+    width: -webkit-fill-available; /* Have to be careful with this as I'm not sure that all browsers support it */
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 20px;
+}
+

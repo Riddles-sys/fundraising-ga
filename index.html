@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Fundraiser</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <script src="scripts/app.js"></script>
+  </head>
+  <body>
+    
+    <section>
+      <h1>Ridwan's SEI Fundraising Campaign</h1>
+      <div>
+        <!-- Progress bar -->
+        <progress id='bar' value='0' max='100'> <span id="label">bla</span> </progress>
+        <h2>Target £100</h2>
+      </div>
+      <!-- Donation amount which will change -->
+      <p>Donate <span id="fromTot"></span> to reach our target!</p>
+      <!-- Buttons for donations -->
+      <div class="buttons">
+        <button id='btn-one' data-val =1 >£1</button>
+        <button id='btn-five' data-val =5 >£5</button>
+        <button id='btn-ten' data-val=10 >£10</button>
+      </div>
+    </section>
+    <!-- Audio tag -->
+    <audio></audio>
+    
+  </body>
+</html>
