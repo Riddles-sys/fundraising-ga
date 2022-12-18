@@ -7,10 +7,6 @@ Create a fundraiser widget that looks like the wireframe below.
 <br/>
 
 You must make a plan before you start coding and have a member of the instructional team sign you off.  
-<br/>
-
-This is to be pair coded, only one person typing at a time using either Live Share or one person screen sharing.
-
 
 <br/>
 
