@@ -24,7 +24,3 @@ You must make a plan before you start coding and have a member of the instructio
 * Every 10 seconds, a **random** donation of either **£1**, **£5**, or **£10,** should be made to the campaign. You should use setInterval to implement this.
 * Every time a donation is made, a sound plays.
 
-
-<br/>
-
-The basics of the wireframe should be met, however you are free to incorporate some of your own style with CSS/CSS animations too!
